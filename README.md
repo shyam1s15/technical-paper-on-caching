@@ -39,6 +39,6 @@ Again to overcome this problem, they have switched to another algorithm called *
 
 In a nutshell, BlockCache restricts its writes to fixed-sized blocks that are aligned in the SSD’s logical address space. These logical blocks were configured to be 64MiB and contain hundreds of photos and video blobs with varying sizes.
 
-BlockCache is more emphasize on High hit rate & lower write amplification so does not decreases the throughput and the lifespan of the SSD.
+BlockCache is more emphasize on High hit rate & lower write amplification so does not decreases the throughput and longer the lifespan of the SSD.
 
 For more detailed Reseach please visit [Facebook Research or click me](https://research.facebook.com/blog/2016/04/the-evolution-of-advanced-caching-in-the-facebook-cdn/)
